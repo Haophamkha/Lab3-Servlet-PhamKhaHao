@@ -15,6 +15,12 @@ public class Product {
         this.price = price;
         this.url_image = url_image;
     }
+    public Product( String name, double price, String url_image) {
+
+        this.name = name;
+        this.price = price;
+        this.url_image = url_image;
+    }
 
     public int getId() {
         return id;
