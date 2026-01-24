@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>Lab3-Servlet-PhamKhaHao-22674001</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>Lab3-Servlet-PhamKhaHao-22674001 Maven Webapp</name>
   <url>http://maven.apache.org</url>

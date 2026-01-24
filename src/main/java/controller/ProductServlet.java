@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/")
+@WebServlet({"/list", "/new", "/insert", "/edit", "/update", "/delete"})
 public class ProductServlet extends HttpServlet {
 
     private ProductDAO productDAO;
